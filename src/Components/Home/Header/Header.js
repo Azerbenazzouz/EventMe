@@ -16,16 +16,16 @@ const Header = () => {
                 </div>
                 <div className='row col-md-12'>
                     <div className='d-flex justify-content-center d-grid col-md-6 mx-auto'>
-                        <select className="form-select form-select-lg" aria-label="Default select example">
-                            <option selected>Select Event Type</option>
+                        <select className="form-select form-select-lg" defaultValue={'DEFAULT'}>
+                            <option >Select Event Type</option>
                             <option value="1">Parties</option>
                             <option value="2">Events</option>
                             <option value="3">courses</option>
                             <option value="4">competitions</option>
                             <option value="5">hackathons</option>
                         </select>
-                        <select className="form-select form-select-lg" aria-label="Default select example">
-                            <option selected>Select area</option>
+                        <select className="form-select form-select-lg" defaultValue={'DEFAULT'}>
+                            <option >Select area</option>
                             <option value="1">tunis</option>
                             <option value="2">ben arous</option>
                             <option value="3">zahra</option>
