@@ -16,7 +16,7 @@ const Header = () => {
                 </div>
                 <div className='row col-md-12'>
                     <div className='d-flex justify-content-center d-grid col-md-6 mx-auto'>
-                        <select class="form-select form-select-lg" aria-label="Default select example">
+                        <select className="form-select form-select-lg" aria-label="Default select example">
                             <option selected>Select Event Type</option>
                             <option value="1">Parties</option>
                             <option value="2">Events</option>
@@ -24,7 +24,7 @@ const Header = () => {
                             <option value="4">competitions</option>
                             <option value="5">hackathons</option>
                         </select>
-                        <select class="form-select form-select-lg" aria-label="Default select example">
+                        <select className="form-select form-select-lg" aria-label="Default select example">
                             <option selected>Select area</option>
                             <option value="1">tunis</option>
                             <option value="2">ben arous</option>
