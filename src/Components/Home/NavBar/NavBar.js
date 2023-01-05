@@ -5,7 +5,7 @@ const NavBar = () => {
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Tenth navbar example">
                 
                 <div className="container-fluid">
-                <a className="navbar-brand fw-bold" href="#">EventMe</a>
+                    <a className="navbar-brand fw-bold" href="/" >EventMe</a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
